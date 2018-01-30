@@ -8,6 +8,7 @@ $fonfamilyprincipal: Raleway;
 
         color: $color;
         text-align: center;
+        border: none;        
         width: $w;
         height: $h;
         border-radius: 100px;
@@ -120,11 +121,13 @@ header {
         button {
             width: 175px;
             height: 38px;
+            border: none;
             border-radius: 100px;
             background-color: #ffffff;
+            font-size: 20px;
             box-shadow: 0 8px 18px 0 rgba(45, 45, 45, 0.50);
             -webkit-box-shadow: 0px 0px 4px 0 rgba(45, 45, 45, 0.50);
-            font-size: 20px;
+            
         }
     }
     @mixin medidas ($height, $width){
