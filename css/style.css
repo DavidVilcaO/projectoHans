@@ -1,0 +1,182 @@
+* {
+  font-family: Raleway;
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background-color: rgba(255, 255, 255, 0.21);
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22);
+  height: 60px; }
+  header nav {
+    width: 90%;
+    max-width: 1293px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    header nav .logo img {
+      height: 50px;
+      width: 50px; }
+    header nav .enlaces {
+      display: inline-block;
+      text-align: right; }
+      header nav .enlaces a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1em;
+        margin-right: 10px; }
+        header nav .enlaces a:hover {
+          color: black;
+          background-color: #FFFFFF;
+          padding: 10px;
+          border-radius: 5px; }
+
+.banner {
+  background-color: #372678;
+  color: #FFFFFF;
+  height: 768px;
+  display: flex;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: center;
+  background-image: url("../images/access.svg");
+  background-position: 80% 50%;
+  background-repeat: no-repeat; }
+  .banner .title {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%; }
+    .banner .title h1 {
+      font-size: 75px;
+      font-weight: bold; }
+    .banner .title h3 {
+      font-size: 30px;
+      font-weight: 500;
+      padding-top: 25px;
+      padding-bottom: 30px; }
+    .banner .title button {
+      width: 175px;
+      height: 38px;
+      border-radius: 100px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 18px 0 rgba(45, 45, 45, 0.5);
+      font-size: 20px; }
+  .banner .imagenesbg {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    align-items: center; }
+    .banner .imagenesbg .img1 {
+      height: 30px;
+      width: 30px;
+      margin: 40px; }
+    .banner .imagenesbg .img2 {
+      height: 30px;
+      width: 30px;
+      margin: 40px; }
+    .banner .imagenesbg .img3 {
+      height: 30px;
+      width: 30px;
+      margin: 40px; }
+
+.section01 {
+  background-color: #30245F;
+  max-width: 100%;
+  height: 768px;
+  color: #FFFFFF;
+  display: flex;
+  background-image: url("../images/heart.svg");
+  background-position: 80% 50%;
+  background-repeat: no-repeat; }
+  .section01 .contenido {
+    width: 90%;
+    max-width: 1293px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .section01 .contenido h1 {
+      font-size: 45px;
+      font-weight: bold; }
+    .section01 .contenido p {
+      font-size: 1.3em;
+      font-weight: 500;
+      text-align: left;
+      color: #ffffff; }
+
+.section02 {
+  background-color: white;
+  max-width: 100%;
+  height: 768px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section02 div {
+    margin: auto; }
+    .section02 div .card {
+      width: 164px;
+      height: 138px;
+      background-image: url(https://image.flaticon.com/sprites/new_packs/349220-credit-cards.png);
+      background-size: 492px;
+      display: inline-block;
+      max-width: 100%; }
+    .section02 div h1 {
+      color: #30245F;
+      text-align: center; }
+    .section02 div p {
+      color: #30245F;
+      text-align: center;
+      margin: 30px;
+      width: 600px; }
+    .section02 div button {
+      color: #ffffff;
+      text-align: center;
+      width: 195px;
+      height: 42px;
+      border-radius: 100px;
+      background-color: #30245F;
+      margin: auto;
+      display: inherit;
+      -webkit-transition-duration: 0.4s;
+      /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19); }
+      .section02 div button:hover {
+        background-color: #5E36F6;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+footer {
+  height: 60px;
+  max-width: 100%;
+  background-color: #30245F;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  footer p {
+    margin: auto; }
+
+/* efectos del menu*/
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear; }
+
+.headroom--pinned {
+  transform: translateY(0%); }
+
+.headroom--unpinned {
+  transform: translateY(-100%); }
+
+/*# sourceMappingURL=style.css.map */
