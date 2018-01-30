@@ -122,22 +122,16 @@ header {
   justify-content: center;
   align-items: center; }
   .section02 div {
-    margin: auto; }
-    .section02 div .card {
-      width: 164px;
-      height: 138px;
-      background-image: url(https://image.flaticon.com/sprites/new_packs/349220-credit-cards.png);
-      background-size: 492px;
-      display: inline-block;
-      max-width: 100%; }
+    margin: auto;
+    display: flex;
+    flex-direction: column; }
     .section02 div h1 {
       color: #30245F;
       text-align: center; }
     .section02 div p {
       color: #30245F;
       text-align: center;
-      margin: 30px;
-      width: 600px; }
+      margin: 30px; }
     .section02 div button {
       color: #ffffff;
       text-align: center;
@@ -146,7 +140,7 @@ header {
       border-radius: 100px;
       background-color: #30245F;
       margin: auto;
-      display: inherit;
+      display: inline;
       -webkit-transition-duration: 0.4s;
       /* Safari */
       transition-duration: 0.4s;

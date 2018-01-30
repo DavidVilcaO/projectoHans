@@ -13,7 +13,7 @@ $fonfamilyprincipal: Raleway;
         border-radius: 100px;
         background-color: $bgcolor;
         margin: auto;
-        display: inherit;
+        display: inline;
         -webkit-transition-duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
         cursor: pointer;
@@ -197,17 +197,8 @@ header {
     div {
         margin: auto;
         display: flex;
-        .card {
+        flex-direction: column;
 
-            $width: 164px;
-            $h: ($width * 138) / 164;
-            width: $width;
-            height: $h;
-            background-image: url(https://image.flaticon.com/sprites/new_packs/349220-credit-cards.png);
-            background-size: ($width * 3);
-            display: inline-block;
-            margin: auto;
-        }
         h1 {
             color: #30245F;
             text-align: center;
@@ -216,7 +207,6 @@ header {
             color: #30245F;
             text-align: center; 
             margin: 30px;
-            width: 600px;
         }
         button {
             @include botones(#ffffff, 195px,42px,#30245F);
