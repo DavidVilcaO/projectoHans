@@ -6,4 +6,14 @@ var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement);
 // initialise
 headroom.init(); 
-    });
+
+
+
+var scroll = new SmoothScroll('a[href*="#about"]');
+
+});
+
+
+
+
+
