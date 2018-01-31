@@ -26,9 +26,14 @@ var scroll = new SmoothScroll('a[href*="#about"]', {
 	before: function () {}, // Callback to run before scroll
 	after: function () {} // Callback to run after scroll
 });
+
+
 });
 
+$('.logo').click(function(){
+	$(this).next().slideToggle();
 
+})
 
 
 
