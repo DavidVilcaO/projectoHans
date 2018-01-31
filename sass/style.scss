@@ -63,7 +63,7 @@ header {
             a {
                 color: $ColorTextos;
                 text-decoration: none;
-                font-size: 1em;
+                font-size: 1rem;
                 margin-right: 10px;
                 &:hover {
                     color: black;
@@ -76,7 +76,7 @@ header {
             button {
                 @include botones($ColorTextos,150px,33px,rgba(255, 255, 255, 0.00),solid 0.1);
                 cursor: pointer;
-                font-size: 1em;
+                font-size: 1rem;
                 box-shadow: 0;
                 &:hover {
                     background-color: #FFFFFF;
@@ -266,6 +266,9 @@ footer {
 @media all and (max-width: 800px) {
     .enlaces {
         display: flex;
+        a {
+            padding-top: 7px;
+        }
 
     }
 

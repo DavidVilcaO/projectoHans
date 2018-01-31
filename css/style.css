@@ -28,7 +28,7 @@ header {
       header nav .enlaces a {
         color: #ffffff;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 1rem;
         margin-right: 10px; }
         header nav .enlaces a:hover {
           color: black;
@@ -49,7 +49,7 @@ header {
         /* Safari */
         transition-duration: 0.4s;
         cursor: pointer;
-        font-size: 1em;
+        font-size: 1rem;
         box-shadow: 0; }
         header nav .enlaces button:hover {
           background-color: #FFFFFF;
@@ -201,6 +201,8 @@ footer {
 
 @media all and (max-width: 800px) {
   .enlaces {
-    display: flex; } }
+    display: flex; }
+    .enlaces a {
+      padding-top: 7px; } }
 
 /*# sourceMappingURL=style.css.map */
