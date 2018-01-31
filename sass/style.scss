@@ -2,7 +2,7 @@ $ColorPrincipal: #372678;
 $ColorTextos: #ffffff;
 $backgroundcolor: #372678;
 $fontsizeprincipal: 22px;
-$fonfamilyprincipal: Raleway;
+$fonfamilyprincipal: Roboto;
 
 @mixin botones ($color,$w,$h,$bgcolor,$border:none){
 
@@ -58,7 +58,7 @@ header {
             }
         }
         .enlaces {
-            display: inline-block;
+            
             text-align: right;
             a {
                 color: $ColorTextos;
@@ -262,3 +262,18 @@ footer {
     transform: translateY(-100%);
 }
 
+
+@media all and (max-width: 800px) {
+    .enlaces {
+        background-color: red;
+        display: flex;
+        a {
+            background-color: green;
+        }
+        button {
+            background-color: yellow;
+        }
+    }
+
+
+}

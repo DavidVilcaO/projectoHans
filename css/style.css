@@ -1,5 +1,5 @@
 * {
-  font-family: Raleway;
+  font-family: Roboto;
   margin: 0px;
   padding: 0px; }
 
@@ -24,7 +24,6 @@ header {
       height: 50px;
       width: 50px; }
     header nav .enlaces {
-      display: inline-block;
       text-align: right; }
       header nav .enlaces a {
         color: #ffffff;
@@ -199,5 +198,14 @@ footer {
 
 .headroom--unpinned {
   transform: translateY(-100%); }
+
+@media all and (max-width: 800px) {
+  .enlaces {
+    background-color: red;
+    display: flex; }
+    .enlaces a {
+      background-color: green; }
+    .enlaces button {
+      background-color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */
