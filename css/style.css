@@ -201,11 +201,6 @@ footer {
 
 @media all and (max-width: 800px) {
   .enlaces {
-    background-color: red;
-    display: flex; }
-    .enlaces a {
-      background-color: green; }
-    .enlaces button {
-      background-color: yellow; } }
+    display: flex; } }
 
 /*# sourceMappingURL=style.css.map */
